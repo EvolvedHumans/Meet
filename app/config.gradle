@@ -1,0 +1,29 @@
+ext {
+    Version = [
+            'compileSdk': 31,
+            'buildTools': "30.0.2"
+    ]
+
+    Config = [
+            'app'                      : "Meet",
+            'applicationId'            : "fax.faxfromiphonefree.sendfaxfree.sendfax.meet",
+            'minSdkVersion'            : 26,
+            'targetSdkVersion'         : 31,
+            'versionCode'              : 1,
+            'versionName'              : "1.0",
+            'testInstrumentationRunner': "androidx.test.runner.AndroidJUnitRunner"
+    ]
+
+    //秘钥
+    Key = [
+            'bmob_key'  : "\"c7f4094a318c14f5ffe50ecb8ebc9007\"",
+            'rongIm_key': "\"pwe86ga5psjq6\""
+    ]
+
+    //服务器域名
+    Url = [
+            'rongIm_url_home':"\"api-cn.ronghub.com\"",
+            'rongIm_url_overseas':"\"api-sg01.ronghub.com\""
+    ]
+
+}

@@ -1,0 +1,3 @@
+include ':tool-module'
+include ':app'
+rootProject.name = "Meet"
