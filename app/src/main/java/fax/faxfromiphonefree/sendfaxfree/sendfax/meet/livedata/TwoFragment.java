@@ -10,11 +10,6 @@ import android.view.ViewGroup;
 
 import fax.faxfromiphonefree.sendfaxfree.sendfax.meet.R;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link TwoFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
 public class TwoFragment extends Fragment {
 
     @Override

@@ -21,13 +21,15 @@
             android:name=".FlashActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:theme="@style/Theme.Splash">
+
+        </activity>
+        <activity android:name=".livedata.LiveDataActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".livedata.LiveDataActivity" />
         <activity android:name=".rongyun.RongYunActivity" />
         <activity android:name=".bmob.BmobActivity" />
         <activity android:name=".viewmodel.ViewModelActivity" />
