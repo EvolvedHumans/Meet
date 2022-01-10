@@ -53,6 +53,9 @@ android {
             buildConfigField "String","RONG_IM_Url_Home",Url.rongIm_url_home
             buildConfigField "String","RONG_IM_Url_Overseas",Url.rongIm_url_overseas
 
+            //隐私协议
+            buildConfigField "String","PRICACY_POLICY_URL",LocalUrl.privacy_policy_url
+
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
 
@@ -72,10 +75,6 @@ android {
 
 dependencies {
 
-    //lifecycle组件
-    implementation "androidx.lifecycle:lifecycle-process:2.2.0"
-    implementation "android.arch.lifecycle:extensions:1.1.1"
-
     //工具类
     implementation project(path: ':tool-module')
 
@@ -93,6 +92,7 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'com.google.android.material:material:1.1.0'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'

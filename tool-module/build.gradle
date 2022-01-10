@@ -27,8 +27,8 @@ dependencies {
     //蓝牙mac地址
     compile 'net.vidageek:mirror:1.6.1'
 
-    implementation files('libs/poi-scratchpad-3.8-20120326.jar')
-    implementation files('libs/jxl.jar')
+    implementation files('libs\\poi-scratchpad-3.8-20120326.jar')
+    implementation files('libs\\jxl.jar')
     //lombok插件
     annotationProcessor 'org.projectlombok:lombok:1.18.16'
 

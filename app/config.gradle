@@ -20,10 +20,15 @@ ext {
             'rongIm_key': "\"pwe86ga5psjq6\""
     ]
 
-    //服务器域名
+    //第三方服务器域名
     Url = [
             'rongIm_url_home':"\"api-cn.ronghub.com\"",
             'rongIm_url_overseas':"\"api-sg01.ronghub.com\""
+    ]
+
+    //本地服务器地址
+    LocalUrl = [
+            'privacy_policy_url':"\"https://test1.leadron.com/html/privacy-statement.html\""
     ]
 
 }

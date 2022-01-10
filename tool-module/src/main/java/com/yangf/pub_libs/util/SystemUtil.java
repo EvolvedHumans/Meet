@@ -30,6 +30,26 @@ public class SystemUtil {
     private final static String TAG = "com.yangf.pub_libs.util.SystemUtil";
 
     /**
+     *
+     * @return 获取本机设备的蓝牙MAC地址
+     */
+//    public static String getBtAddressViaReflection() {
+//        BluetoothAdapter bluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
+//        Object bluetoothManagerService = new Mirror().on(bluetoothAdapter).get().field("mService");
+//        if (bluetoothManagerService == null) {
+//            Log4j.w(TAG, "couldn't find bluetoothManagerService");
+//            return null;
+//        }
+//        Object address = new Mirror().on(bluetoothManagerService).invoke().method("getAddress").withoutArgs();
+//        if (address != null && address instanceof String) {
+//            Log4j.w(TAG, "using reflection to get the BT MAC address: " + address);
+//            return (String) address;
+//        } else {
+//            return null;
+//        }
+//    }
+
+    /**
      * @return 检查系统蓝牙是否支持BLE协议
      */
     public static boolean getBlueUsed(Context context) {
