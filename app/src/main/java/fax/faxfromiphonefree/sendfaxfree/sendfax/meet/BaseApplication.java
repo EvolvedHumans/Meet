@@ -19,12 +19,15 @@ public class BaseApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+
 //        //Bmob SDK
 //        Bmob.initialize(this, BuildConfig.BMOB_KEY);
+
 //        //RongIM 开启推送功能
 //        //todo 最佳用户接受隐私协议后，再进行初始化
 //        RongIM.init(this,BuildConfig.RONG_IM_KEY,true);
-//        //连接RongIM服务器
 
+          //Lifecycle监听生命周期
+//        ProcessLifecycleOwner.get().getLifecycle().addObserver(new AppObserver());
     }
 }
